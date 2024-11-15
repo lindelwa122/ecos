@@ -37,11 +37,11 @@ There were 4 newborn shark(s).
 CURRENT POPULATION:
 Female Fish: 6
 Male Fish: 9
-Total: 15
+Total Fish: 15
 
 Female Shark(s): 7
 Male Shark(s): 7
-Total: 14
+Total Shark(s): 14
 ```
 
 ## Fish and Shark objects

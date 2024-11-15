@@ -70,11 +70,11 @@ class Ecosystem:
         CURRENT POPULATION:
         Female Fish: {len([c for c in river if isinstance(c, Fish) and not c.sex])}
         Male Fish: {len([c for c in river if isinstance(c, Fish) and c.sex])}
-        Total: {len([c for c in river if isinstance(c, Fish)])}
+        Total Fish: {len([c for c in river if isinstance(c, Fish)])}
 
         Female Shark(s): {len([c for c in river if isinstance(c, Shark) and not c.sex])}
         Male Shark(s): {len([c for c in river if isinstance(c, Shark) and c.sex])}
-        Total: {len([c for c in river if isinstance(c, Shark)])}
+        Total Shark(s): {len([c for c in river if isinstance(c, Shark)])}
       '''
 
   def __init__(self, size, fish_no, shark_no):

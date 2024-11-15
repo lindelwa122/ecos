@@ -7,7 +7,7 @@ from math import floor
 # DON'T BE TEMPTED TO CHANGE ANYTHING HERE :)
 
 def output_error_msg(msg):
-  print(f'\033[31m\u274C {msg}\033[0m')
+  print(f'\033[31m\u00D7 {msg}\033[0m')
   exit(1)
 
 def output_success_msg(msg):
@@ -435,26 +435,17 @@ if f'Female Fish: {female_fish}' not in stats:
 if f'Male Fish: {male_fish}' not in stats:
   output_error_msg('stats incorrectly handles the stats of male fish')
 
+if f'Total Fish: {male_fish + female_fish}' not in stats:
+  output_error_msg('stats incorrectly handles the stats of fish')
+
 if f'Female Shark(s): {female_sharks}' not in stats:
   output_error_msg('stats incorrectly handles the stats of female sharks')
 
 if f'Male Shark(s): {male_sharks}' not in stats:
-  output_error_msg('stats incorrectly handles thet stats of male sharks')
+  output_error_msg('stats incorrectly handles the stats of male sharks')
+
+if f'Total Shark(s): {male_sharks + female_sharks}' not in stats:
+    output_error_msg('stats incorrectly handles the stats of sharks')
 
 output_success_msg('stats work accurately')
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+output_success_msg('Congratulations 🎉, Tariro Mashanda. You did it :)')
